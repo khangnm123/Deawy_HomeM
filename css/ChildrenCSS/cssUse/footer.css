@@ -1,0 +1,48 @@
+@import './variable.css';
+/*===============CSS Foooter ========================*/
+footer {
+    background-color: #F5E2D6;
+    padding: 45px 30px;
+  }
+  footer .row > * {
+    padding: unset !important;
+  }
+  footer ul li {
+    padding-bottom: 15px;
+  }
+  footer ul li #test {
+    font-size: 24px;
+    color: #003F12;
+  }
+  footer ul li a {
+    color: #003F12;
+    font-size: 16px;
+  }
+  footer ul .row img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+  }
+  footer .list_contest {
+    display: grid !important;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer_end {
+    background-color: #003F12;
+    padding: 25px 5px;
+  }
+  .footer_end .text_a a {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  .footer_end .text1_a {
+    margin-right: 65px;
+  }
+  .footer_end .text1_a a {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  

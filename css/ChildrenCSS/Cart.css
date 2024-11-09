@@ -1,0 +1,220 @@
+
+@import './cssUse/button.css';
+@import './cssUse/variable.css';
+/*===============CSS Shopping Cart========================*/
+.shopping_cart {
+    padding: 0px 5px;
+  }
+  .shopping_cart .text-center h2 {
+    font-size: 36px;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #003F12;
+    text-transform: uppercase;
+  }
+  .shopping_cart .text-center p {
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F12;
+    padding: 0px 5px;
+    font-size: 20px;
+  }
+  .shopping_cart .text-center span {
+    font-size: 20px;
+    color: #003F12;
+  }
+  .shopping_cart .list_card {
+    margin: 20px 0px;
+  }
+  .shopping_cart .list_card .center_flex {
+    border: 1px solid #000;
+    border-radius: 10px;
+    max-width: 1000px;
+  }
+  .shopping_cart .list_card .list_item {
+    padding: 60px;
+  }
+  .shopping_cart .list_card .list_item .item_image {
+    margin-right: 30px;
+  }
+  .shopping_cart .list_card .list_item .item_button .price_money p {
+    font-size: 28px;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .shopping_cart .list_card .list_item .item_button .heart_right {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .shopping_cart .list_card .list_item .item_button .heart_right i {
+    font-size: 31px;
+  }
+  .shopping_cart .list_card .list_item .item_button1 {
+    padding: 0px 5px;
+  }
+  .shopping_cart .list_card .list_item .item_button1 ul li a {
+    color: #003F12;
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 0px 10px;
+  }
+  .shopping_cart .list_card .list_item .item_button1 p {
+    font-size: 16px;
+    color: #003F12;
+    font-weight: bold;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .shopping_cart .list_card .list_item .item_text .text_h3 {
+    color: #003F12;
+  }
+  .shopping_cart .list_card .list_item .item_text .text_h3 h3 {
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .shopping_cart .list_card .list_item .item_text .text_h3 p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F12;
+    font-weight: 200;
+  }
+  .shopping_cart .list_card .list_item .cart_total {
+    border-top: 2px solid #003F12;
+    padding-top: 40px;
+  }
+  .shopping_cart .list_card .list_item .cart_total h2 {
+    font-size: 28px;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #003F12;
+    text-transform: uppercase;
+  }
+  .shopping_cart .list_card .list_item .cart_total p {
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003F12;
+  }
+  
+  .item {
+    padding: 50px 0px;
+    border-top: 1px solid #000;
+  }
+  .item .text_bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    justify-content: right;
+  }
+  .item .text_bottom p {
+    font-size: 20px;
+    margin-right: 25px;
+    text-decoration: underline;
+    line-height: 2px;
+  }
+  
+  .cart_slider {
+    padding: 40px 5px 0px 5px;
+  }
+  .cart_slider h3 {
+    font-size: 32px;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #003F12;
+  }
+  /*===============CSS Cart Slider========================*/
+  .cart_slider .row {
+    margin: unset;
+  }
+  .cart_slider .row .item {
+    border-top: unset;
+  }
+  .cart_slider .row .item h4 {
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 0px;
+    margin: unset;
+  }
+  .cart_slider .row .item .start .text_review p {
+    text-decoration: underline;
+    color: #000;
+    font-size: 10px;
+  }
+  .cart_slider .row .item .text_slider {
+    padding-top: 30px;
+  }
+  .cart_slider .row .item .text_slider p {
+    font-size: 18px;
+  }
+  
+  .cart_slider1 {
+    padding: 40px 5px 0px 5px;
+  }
+  .cart_slider1 h3 {
+    font-size: 32px;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #003F12;
+  }
+  .cart_slider1 .row {
+    margin: unset;
+  }
+  .cart_slider1 .row .item {
+    border-top: unset;
+  }
+  .cart_slider1 .row .item h4 {
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 0px;
+    margin: unset;
+  }
+  .cart_slider1 .row .item .start .text_review p {
+    text-decoration: underline;
+    color: #000;
+    font-size: 10px;
+  }
+  .cart_slider1 .row .item .text_slider {
+    padding-top: 30px;
+  }
+  .cart_slider1 .row .item .text_slider p {
+    font-size: 18px;
+  }
+  .cart_slider1 .row img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .cart_slider1 .row .button_add button {
+    width: 100%;
+  }
+  
+  /*# sourceMappingURL=Cart_.css.map */
+  

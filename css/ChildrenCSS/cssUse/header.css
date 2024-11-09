@@ -1,0 +1,76 @@
+@import './variable.css';
+/*===============CSS Header ========================*/
+.center_flex {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #pd {
+    padding: 0px 8px;
+  }
+  
+  .nav_top {
+    background-color: #003F12;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F12;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px 5px;
+  }
+  
+  .nav_bottom {
+    background-color: #F5E2D6;
+  }
+  .nav_bottom .list_content {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 5px;
+  }
+  .nav_bottom .list_content li a {
+    color: #003F12;
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F12;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .nav_bottom .list_content li img {
+    height: 120px;
+  }
+  .nav_bottom .list_content .ul_right li {
+    margin: 0px 5px;
+  }
+  .nav_bottom .list_content1 .ul_left li {
+    padding: 0px 5px;
+  }
+  .nav_bottom .list_content1 .ul_left li a img {
+    width: 30px;
+    height: 30px;
+  }
+  .nav_bottom .list_content1 .ul_right li {
+    padding: 0px 5px;
+  }
+  .nav_bottom .list_content1 .ul_right li a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .text_cart {
+    padding: 0px 15px;
+  }
+  .text_cart .center_flex {
+    padding-top: 47px;
+    padding-bottom: 20px;
+  }
+  .text_cart .center_flex h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003F12;
+    font-size: 20px;
+    font-weight: 500;
+    color: #003F12;
+  }
+  

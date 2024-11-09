@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap');
+/*===============Reset lại các code ở boostrap========================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", serif;
+}
+.container{
+    max-width: unset;
+    padding: unset;
+    margin: unset;
+}
+p{
+    margin-bottom: unset;
+}
+ul{
+    list-style-type: none;
+    padding: unset;
+    margin: unset;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    margin: unset;
+}
+h3{
+    margin: unset;
+}
